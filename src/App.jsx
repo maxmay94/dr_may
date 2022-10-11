@@ -1,10 +1,12 @@
 import NavBar from './components/navBar/NavBar'
-import Landing from './pages/Landing/Langing'
+import Landing from './pages/Landing/Landing'
 
 function App() {
   return (
     <>
-      <NavBar />
+      {/* <div className='absolute top-0'> */}
+        <NavBar />
+      {/* </div> */}
       <Landing />
     </>
   )
