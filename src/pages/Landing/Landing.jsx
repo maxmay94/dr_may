@@ -1,7 +1,7 @@
 
 const Landing = () => {
   return (
-    <main className="relative h-screen w-screen">
+    <main className="relative h-screen">
       <div className="lg:w-2/3 mx-auto">
 
         <div className="flex m-2 mt-20 ">
