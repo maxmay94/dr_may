@@ -1,8 +1,8 @@
 
 const Landing = () => {
   return (
-    <main className="relative h-screen bg-teal-800 ">
-      <div className="lg:w-2/3 mx-auto bg-teal-800 ">
+    <main className="relative h-screen">
+      <div className="lg:w-2/3 mx-auto ">
 
         <div className="flex m-2 mt-20 ">
           <img className="w-2/3 rounded-l-md" src="/src/images/office_cover_photo.jpeg" alt="office"/>
@@ -27,7 +27,7 @@ const Landing = () => {
         <div className="m-5 bg-emerald-900/30 p-5 rounded drop-shadow">
 
           <div className="flex ">
-            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/baby_dad_head.jpeg" alt="baby_dad_head"/>
+            <img className="rounded-full border border-amber-500 m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/baby_dad_head.jpeg" alt="baby_dad_head"/>
             <div className="bg-teal-900 text-gray-300 m-1 p-2 drop-shadow rounded">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nam dignissimos laborum adipisci! Commodi sapiente mollitia dignissimos numquam similique? Deserunt perspiciatis incidunt cupiditate libero commodi, adipisci autem corrupti dignissimos explicabo!
             </div>
@@ -36,7 +36,7 @@ const Landing = () => {
           <br />
 
           <div className="flex ">
-            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/dad_headshot.jpeg" alt="normal_dad_head"/>
+            <img className="rounded-full border border-amber-500  m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/dad_headshot.jpeg" alt="normal_dad_head"/>
             <div className="bg-teal-900 text-gray-300 m-0 p-2 drop-shadow rounded">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nam dignissimos laborum adipisci! Commodi sapiente mollitia dignissimos numquam similique? Deserunt perspiciatis incidunt cupiditate libero commodi, adipisci autem corrupti dignissimos explicabo!
             </div>
