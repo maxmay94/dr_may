@@ -1,8 +1,8 @@
 
 const Landing = () => {
   return (
-    <main className="relative h-screen bg-teal-800">
-      <div className="lg:w-2/3 mx-auto bg-teal-800">
+    <main className="relative h-screen bg-teal-800 ">
+      <div className="lg:w-2/3 mx-auto bg-teal-800 ">
 
         <div className="flex m-2 mt-20 ">
           <img className="w-2/3 rounded-l-md" src="/src/images/office_cover_photo.jpeg" alt="office"/>
@@ -43,7 +43,7 @@ const Landing = () => {
           </div>
 
         </div>
-
+      
       </div>
 
     </main>
