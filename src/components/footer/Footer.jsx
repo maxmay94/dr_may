@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex justify-around bg-teal-900
+    <div className="flex justify-around bg-teal-900/90
     backdrop-blur-md shadow-md w-full
     fixed bottom-0 left-0 right-0 z-10">
       <div className='font-sans w-screen'>

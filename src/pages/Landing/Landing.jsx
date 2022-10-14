@@ -14,7 +14,7 @@ const Landing = () => {
             73 Church Street <br/> North Adams, MA 01247
           </div>
           <br />
-          <div className="bg-emerald-900 rounded p-2 drop-shadow">
+          <div className="bg-emerald-900/80 rounded p-2 drop-shadow">
             Dr. May has been serving the North Adams community with expert chiropractic care for over 25 years. 
             <br />
             <br />
@@ -27,7 +27,7 @@ const Landing = () => {
         <div className="m-5 bg-emerald-900/30 p-5 rounded drop-shadow">
 
           <div className="flex ">
-            <img className="rounded-full border border-amber-500 m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/baby_dad_head.jpeg" alt="baby_dad_head"/>
+            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/baby_dad_head.jpeg" alt="baby_dad_head"/>
             <div className="bg-teal-900 text-gray-300 m-1 p-2 drop-shadow rounded">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nam dignissimos laborum adipisci! Commodi sapiente mollitia dignissimos numquam similique? Deserunt perspiciatis incidunt cupiditate libero commodi, adipisci autem corrupti dignissimos explicabo!
             </div>
@@ -36,7 +36,7 @@ const Landing = () => {
           <br />
 
           <div className="flex ">
-            <img className="rounded-full border border-amber-500  m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/dad_headshot.jpeg" alt="normal_dad_head"/>
+            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/dad_headshot.jpeg" alt="normal_dad_head"/>
             <div className="bg-teal-900 text-gray-300 m-0 p-2 drop-shadow rounded">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nam dignissimos laborum adipisci! Commodi sapiente mollitia dignissimos numquam similique? Deserunt perspiciatis incidunt cupiditate libero commodi, adipisci autem corrupti dignissimos explicabo!
             </div>
