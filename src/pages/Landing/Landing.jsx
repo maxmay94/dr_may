@@ -10,6 +10,12 @@ const Landing = () => {
         </div>
 
         <div className="m-5 ">
+          <div className="text-center text-xl text-amber-500">
+            (413)664-9050 
+            <br />
+            Call Now!
+          </div>
+          <br />
           <div className="text-center text-xl">
             73 Church Street <br/> North Adams, MA 01247
           </div>

@@ -15,7 +15,7 @@ const NavBar = () => {
 
             <li className="m-2 text-sm font-light">
               <p className="text-amber-500 text-right">
-                (413) 458-9909
+                (413) 458-9050
               </p>
               <p className="text-amber-500 text-right">
                 docmay@gmail.com

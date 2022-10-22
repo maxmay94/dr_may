@@ -21,7 +21,7 @@ const Footer = () => {
 
             <li className="m-2 text-xs font-light">
               <p className="text-amber-500">
-                (413) 458-9909
+                (413) 458-9050
               </p>
             </li>
 
