@@ -41,30 +41,31 @@ const Landing = () => {
 
         <br />
 
-        <p className="text-center text-2xl m-5">
+        <div className="m-5  bg-emerald-900/30 p-5 rounded drop-shadow">
+        <p className="text-center text-2xl mb-8">
           Frequently Asked Questions
         </p>
-        <div className="m-5 bg-emerald-900/30 p-5 rounded drop-shadow">
 
           {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
+          {/* QUESTION */}
           <div className="flex">
             <img 
-              className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" 
+              className="rounded-full mr-5 w-20 h-20 drop-shadow hover:animate-spin" 
               src="/src/images/max_bush.jpeg" 
               alt="max_behind_bush" />
             <div className="bg-teal-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
-              Question: Are you taking new patients? And how far out are you booking?
+              Are you taking new patients? And how far out are you booking?
             </div>
           </div>
-
+          {/* ANSWER */}
           <div className="flex mt-2">
             <div className="bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded">
               Yes, I am accepting new patients. And, I can usually see them within a few days after
               their call. Sometimes, the same day. My hours are, by appointment.
             </div>
             <img 
-              className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" 
+              className="rounded-full ml-5 w-20 h-20 drop-shadow hover:animate-spin" 
               src="/src/images/baby_dad_head.jpeg" 
               alt="baby_dad_head"/>
           </div>
@@ -73,19 +74,19 @@ const Landing = () => {
 
           {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
-
-          <div className="flex">
+          {/* QUESTION */}
+          <div className="flex mt-5">
             <img 
-              className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" 
+              className="rounded-full mr-5 w-20 h-20 drop-shadow hover:animate-spin" 
               src="/src/images/max_cool.jpg" 
               alt="max_2_cool_4_cool" />
             <div className="bg-teal-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
-              Question: Do you take my health insurance?
+              Do you take my health insurance?
             </div>
           </div>
-
+          {/* ANSWER */}
           <div className="flex mt-2">
-            <div className="bg-slate-300 text-teal-900 m-0 my-auto p-2 drop-shadow rounded">
+            <div className="bg-slate-300 text-teal-900 my-auto p-2 drop-shadow rounded">
               Currently, I am only accepting BC/BS of Massachusetts and Medicare. I am not on
               other provider panels. You still have insurance. But, you will have to pay as you go, submit
               the claim yourself, and accept whatever they reimburse you. You will need to discuss this
@@ -99,26 +100,26 @@ const Landing = () => {
               health as, or more, important?
             </div>
             <img 
-              className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin"  
+              className="rounded-full ml-5 w-20 h-20 drop-shadow hover:animate-spin"  
               src="/src/images/dad_headshot.jpeg" 
               alt="normal_dad_head"/>
           </div>
 
                     {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
-
-                    <div className="flex">
+          {/* QUESTION */}
+          <div className="flex mt-10">
             <img 
-              className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" 
+              className="rounded-full mr-5 w-20 h-20 drop-shadow hover:animate-spin" 
               src="/src/images/max_jeep.jpg" 
               alt="max_jeep" />
             <div className="bg-teal-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
-              Question: How much is a visit?
+              How much is a visit?
             </div>
           </div>
-
+          {/* ANSWER */}
           <div className="flex mt-2">
-            <div className="bg-slate-300 text-teal-900 m-0 my-auto p-2 drop-shadow rounded">
+            <div className="bg-slate-300 text-teal-900 my-auto p-2 drop-shadow rounded">
               On the initial office visit we go over the requisite paperwork. Then, we go into the room,
               do a history and exam. Based on that, I will give you a diagnosis that you will understand.
               Next, and most importantly, I will give you explicit verbal and written home instructions to
@@ -127,12 +128,13 @@ const Landing = () => {
 
             </div>
             <img 
-              className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" 
+              className="rounded-full ml-5 w-20 h-20 drop-shadow hover:animate-spin" 
               src="/src/images/serenity_dad_head.jpeg" 
               alt="normal_dad_head"/>
           </div>
+          {/* ANSWER pt. 2 */}
           <div className="flex mt-2">
-            <div className="bg-slate-300 text-teal-900 m-0 my-auto p-2 drop-shadow rounded">
+            <div className="bg-slate-300 text-teal-900 my-auto p-2 drop-shadow rounded">
               <div className="text-orange-700">
                 Note for Medicare patients:
               </div>
@@ -142,7 +144,7 @@ const Landing = () => {
               probably cover the remaining 20%.
             </div>
             <img 
-              className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" 
+              className="rounded-full ml-5 w-20 h-20 drop-shadow hover:animate-spin" 
               src="/src/images/dad_black_eye.jpeg" 
               alt="normal_dad_head"/>
           </div>
