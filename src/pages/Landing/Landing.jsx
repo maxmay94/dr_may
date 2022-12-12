@@ -1,3 +1,5 @@
+import Marquee from "../../components/marquee/Marquee"
+
 const Landing = () => {
   return (
     <main className="relative h-full">
@@ -40,6 +42,7 @@ const Landing = () => {
         </div>
 
         <br />
+        <Marquee />
 
         <div className="m-5  bg-emerald-900/30 p-5 rounded drop-shadow">
         <p className="text-center text-2xl mb-8">
@@ -150,17 +153,8 @@ const Landing = () => {
           </div>
         </div>
 
-        
+        <Marquee />
 
-        
-      
-        <div className="flex mx-5 my-10 pb-10 drop-shadow">
-          <marquee className="text-3xl rounded text-slate-200 bg-emerald-900/80" direction="right">
-            <div className="animate-pulse">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nam dignissimos laborum adipisci! Commodi sapiente mollitia dignissimos numquam similique? Deserunt perspiciatis incidunt cupiditate libero commodi, adipisci autem corrupti dignissimos explicabo!
-            </div>
-          </marquee>
-        </div>
       </div>
     </main>
   )
