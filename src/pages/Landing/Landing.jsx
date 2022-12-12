@@ -41,7 +41,9 @@ const Landing = () => {
           </div>
         </div>
 
-        <Marquee />
+        <div className="mx-5 overflow-x-hidden">
+          <Marquee />
+        </div>
 
         <div className="m-5  bg-emerald-900/30 p-5 rounded drop-shadow">
         <p className="text-center text-2xl mb-8">
@@ -152,7 +154,7 @@ const Landing = () => {
           </div>
         </div>
 
-        <div className="pb-5">
+        <div className="pb-5 mx-5">
           <Marquee />
         </div>
 
