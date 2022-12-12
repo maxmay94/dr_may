@@ -1,3 +1,5 @@
+import max_jeep from "../../images/max_jeep.jpg"
+import dad_headshot from "../../images/dad_headshot.jpeg"
 
 const Landing = () => {
   return (
@@ -85,14 +87,14 @@ const Landing = () => {
               nail appointments, etc. But, you still use them and pay for them, when needed. Isn&#39;t your
               health as, or more, important?
             </div>
-            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/dad_headshot.jpeg" alt="normal_dad_head"/>
+            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src={dad_headshot} alt="normal_dad_head"/>
           </div>
 
                     {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
 
                     <div className="flex">
-            <img className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/max_jeep.jpg" alt="max_jeep" />
+            <img className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" src={max_jeep} alt="max_jeep" />
             <div className="bg-teal-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               Question: How much is a visit?
             </div>
