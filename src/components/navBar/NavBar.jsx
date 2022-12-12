@@ -9,6 +9,8 @@ const NavBar = () => {
 
             <li className="grow m-2 mt-3 font-serif font-bold text-2xl text-slate-200">Dr. Peter May</li>
 
+            <li className="grow m-2 mt-4 font-serif font-bold text-xl text-slate-200">Church Street Chiropractic</li>
+
             <li className="m-2 text-sm font-light">
               <p className="text-amber-500 text-right">
                 (413) 664-9050

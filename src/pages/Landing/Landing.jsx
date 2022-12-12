@@ -41,7 +41,6 @@ const Landing = () => {
           </div>
         </div>
 
-        <br />
         <Marquee />
 
         <div className="m-5  bg-emerald-900/30 p-5 rounded drop-shadow">
@@ -153,7 +152,9 @@ const Landing = () => {
           </div>
         </div>
 
-        <Marquee />
+        <div className="pb-5">
+          <Marquee />
+        </div>
 
       </div>
     </main>

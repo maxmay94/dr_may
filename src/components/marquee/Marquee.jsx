@@ -1,6 +1,6 @@
 const Marquee = () => {
   return (
-    <div className="bg-teal-900 mb-10 mx-5 rounded drop-shadow-xl">
+    <div className="aboslute bg-teal-900 max:w-full mx-5 mb-10 rounded drop-shadow-xl">
     <div class="relative flex overflow-x-hidden">
       <div class="animate-marquee whitespace-nowrap">
         <span className="mx-1 text-xl">Call Today!</span>
@@ -8,6 +8,8 @@ const Marquee = () => {
         <span className="mx-4 text-xl">     </span>
         <span className="mx-1 text-xl">Email me at:</span>
         <span className="mx-4 text-xl text-amber-500">docmay@gmail.com</span>
+        <span className="mx-4 text-xl">     </span>
+        <span className="mx-1 text-xl">73 Church Street, North Adams, MA 01247</span>
         <span className="mx-4 text-xl">     </span>
       </div>
 
@@ -17,6 +19,8 @@ const Marquee = () => {
         <span className="mx-4 text-xl">     </span>
         <span className="mx-1 text-xl">Email me at:</span>
         <span className="mx-4 text-xl text-amber-500">docmay@gmail.com</span>
+        <span className="mx-4 text-xl">     </span>
+        <span className="mx-1 text-xl">73 Church Street, North Adams, MA 01247</span>
         <span className="mx-4 text-xl">     </span>
       </div>
     </div>
