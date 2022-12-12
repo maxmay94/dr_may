@@ -1,8 +1,9 @@
 
 const Landing = () => {
   return (
-    <main className="relative h-screen">
-      <div className="lg:w-2/3 mx-auto ">
+    <main className="relative h-full">
+      <div className="lg:w-2/3 mx-auto">
+
 
         <div className="flex m-2 mt-20 ">
           <img className="w-2/3 rounded-l-md" src="/src/images/office_cover_photo.jpeg" alt="office"/>
@@ -10,15 +11,14 @@ const Landing = () => {
         </div>
 
         <div className="m-5 ">
-          <div className="text-center text-xl text-amber-500">
-            (413)664-9050 
-            <br />
-            Call Now!
-          </div>
           <br />
           <div className="text-center text-xl">
             73 Church Street <br/> North Adams, MA 01247
           </div>
+          <div className="text-center text-xl text-amber-500">
+            (413) 664-9050 
+          </div>
+
           <br />
           <div className="bg-emerald-900/80 rounded p-2 drop-shadow">
             Dr. May has been serving the North Adams community with expert chiropractic care for over 25 years. 
@@ -41,7 +41,7 @@ const Landing = () => {
 
           <br />
 
-          <div className="flex ">
+          <div className="flex">
             <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/dad_headshot.jpeg" alt="normal_dad_head"/>
             <div className="bg-teal-900 text-gray-300 m-0 p-2 drop-shadow rounded">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nam dignissimos laborum adipisci! Commodi sapiente mollitia dignissimos numquam similique? Deserunt perspiciatis incidunt cupiditate libero commodi, adipisci autem corrupti dignissimos explicabo!
@@ -50,8 +50,12 @@ const Landing = () => {
 
         </div>
       
+        <div className="flex mx-5 my-10 pb-10 drop-shadow">
+          <marquee className="text-3xl rounded text-slate-200 bg-emerald-900/80" direction="right">
+            (413) 664-9050 Call Today!
+          </marquee>
+        </div>
       </div>
-
     </main>
   )
 }
