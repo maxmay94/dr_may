@@ -1,6 +1,3 @@
-import max_jeep from "../../images/max_jeep.jpg"
-import dad_headshot from "../../images/dad_headshot.jpeg"
-
 const Landing = () => {
   return (
     <main className="relative h-full">
@@ -12,8 +9,13 @@ const Landing = () => {
 
 
         <div className="flex mt-10">
-          <img className="w-2/3 rounded-l-md" src="/src/images/office_cover_photo.jpeg" alt="office"/>
-          <img className="w-1/3 rounded-r-md border-l-0 border-4 lg:border-6 bg-borderGreen lg:p-1 lg:pl-0 border-borderGreen" src="/src/images/serenity_dad.jpeg" alt="office"/>
+          <img 
+            className="w-2/3 rounded-l-md" 
+            src="/src/images/office_cover_photo.jpeg" 
+            alt="office"/>
+          <img 
+            className="w-1/3 rounded-r-md border-l-0 border-4 lg:border-6 bg-borderGreen lg:p-1 lg:pl-0 border-borderGreen" src="/src/images/serenity_dad.jpeg" 
+            alt="office"/>
         </div>
 
         <div className="m-5 ">
@@ -47,7 +49,10 @@ const Landing = () => {
           {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
           <div className="flex">
-            <img className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/max_bush.jpeg" alt="max_behind_bush" />
+            <img 
+              className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" 
+              src="/src/images/max_bush.jpeg" 
+              alt="max_behind_bush" />
             <div className="bg-teal-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               Question: Are you taking new patients? And how far out are you booking?
             </div>
@@ -58,7 +63,10 @@ const Landing = () => {
               Yes, I am accepting new patients. And, I can usually see them within a few days after
               their call. Sometimes, the same day. My hours are, by appointment.
             </div>
-            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/baby_dad_head.jpeg" alt="baby_dad_head"/>
+            <img 
+              className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" 
+              src="/src/images/baby_dad_head.jpeg" 
+              alt="baby_dad_head"/>
           </div>
 
           <br />
@@ -67,7 +75,10 @@ const Landing = () => {
 
 
           <div className="flex">
-            <img className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/max_cool.jpg" alt="max_2_cool_4_cool" />
+            <img 
+              className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" 
+              src="/src/images/max_cool.jpg" 
+              alt="max_2_cool_4_cool" />
             <div className="bg-teal-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               Question: Do you take my health insurance?
             </div>
@@ -87,14 +98,20 @@ const Landing = () => {
               nail appointments, etc. But, you still use them and pay for them, when needed. Isn&#39;t your
               health as, or more, important?
             </div>
-            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src={dad_headshot} alt="normal_dad_head"/>
+            <img 
+              className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin"  
+              src="/src/images/dad_headshot.jpeg" 
+              alt="normal_dad_head"/>
           </div>
 
                     {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
 
                     <div className="flex">
-            <img className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" src={max_jeep} alt="max_jeep" />
+            <img 
+              className="rounded-full w-20 h-20 drop-shadow hover:animate-spin" 
+              src="/src/images/max_jeep.jpg" 
+              alt="max_jeep" />
             <div className="bg-teal-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               Question: How much is a visit?
             </div>
@@ -109,7 +126,10 @@ const Landing = () => {
               first visit. All of that takes about 1 hour. $125.00 Subsequent visits are $50.00
 
             </div>
-            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/serenity_dad_head.jpeg" alt="normal_dad_head"/>
+            <img 
+              className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" 
+              src="/src/images/serenity_dad_head.jpeg" 
+              alt="normal_dad_head"/>
           </div>
           <div className="flex mt-2">
             <div className="bg-slate-300 text-teal-900 m-0 my-auto p-2 drop-shadow rounded">
@@ -121,7 +141,10 @@ const Landing = () => {
               covers 80% of the treatment cost and your supplemental insurance, if you have it, will
               probably cover the remaining 20%.
             </div>
-            <img className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" src="/src/images/dad_black_eye.jpeg" alt="normal_dad_head"/>
+            <img 
+              className="rounded-full m-5 w-20 h-20 drop-shadow hover:animate-spin" 
+              src="/src/images/dad_black_eye.jpeg" 
+              alt="normal_dad_head"/>
           </div>
         </div>
 
